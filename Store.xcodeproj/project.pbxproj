@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		489C8C3427F1B86700BCD0A1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489C8C3327F1B86700BCD0A1 /* Models.swift */; };
+		489C8C3627F1B8B600BCD0A1 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489C8C3527F1B8B600BCD0A1 /* Services.swift */; };
 		95CEDA1627EF0A1500332642 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CEDA1527EF0A1500332642 /* AppDelegate.swift */; };
 		95CEDA1827EF0A1500332642 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CEDA1727EF0A1500332642 /* SceneDelegate.swift */; };
 		95CEDA1A27EF0A1500332642 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CEDA1927EF0A1500332642 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		489C8C3327F1B86700BCD0A1 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		489C8C3527F1B8B600BCD0A1 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		95CEDA1227EF0A1500332642 /* Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Store.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95CEDA1527EF0A1500332642 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95CEDA1727EF0A1500332642 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				95CEDA1E27EF0A1500332642 /* Assets.xcassets */,
 				95CEDA2027EF0A1500332642 /* LaunchScreen.storyboard */,
 				95CEDA2327EF0A1500332642 /* Info.plist */,
+				489C8C3327F1B86700BCD0A1 /* Models.swift */,
+				489C8C3527F1B8B600BCD0A1 /* Services.swift */,
 			);
 			path = Store;
 			sourceTree = "<group>";
@@ -142,9 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				95CEDA1A27EF0A1500332642 /* ViewController.swift in Sources */,
+				489C8C3627F1B8B600BCD0A1 /* Services.swift in Sources */,
 				95CEDA4A27F087C400332642 /* CartTableViewController.swift in Sources */,
 				95CEDA1627EF0A1500332642 /* AppDelegate.swift in Sources */,
 				95CEDA1827EF0A1500332642 /* SceneDelegate.swift in Sources */,
+				489C8C3427F1B86700BCD0A1 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
